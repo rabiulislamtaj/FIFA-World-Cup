@@ -88,7 +88,8 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    margin-top: 15px;
+    margin-top: 10px;
+
 
 }
 
@@ -101,11 +102,13 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 11px;
 
 }
 
 .live-details .team-image img {
-    width: 300px;
+    width: 312px;
     height: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -130,12 +133,15 @@ button {
 }
 
 hr {
-    width: 50%;
+    width: 70%;
 }
 
+.footer {
+    background-color: black;
+    font-size: 17px;
+}
 
-
-ul {
+.footer ul {
     display: flex;
     color: white;
     justify-content: center;
@@ -143,12 +149,23 @@ ul {
     margin-top: 15px;
 }
 
-.footer ul li a {
-    text-decoration: none;
+.footer li {
+    list-style-type: none;
+    color: white;
 }
 
-.footer p {
+.footer li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 17px;
+}
+
+p {
     font-size: 16px;
-    text-align: center;
-    color: rgb(247, 233, 233);
+
+}
+
+.fnmae {
+    text-decoration: none;
+    color: rgb(223, 119, 192);
 }
